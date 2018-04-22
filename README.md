@@ -29,12 +29,36 @@ The basic working principle is:
 ![](http://images.closedcube.uk/B018_TSYS01/ClosedCube_B018_TSYS01_GitHub1.jpg)
 ![](http://images.closedcube.uk/B018_TSYS01/ClosedCube_B018_TSYS01_GitHub2.jpg)
 
----
+
 ### Where to Buy?
 
- - [https://www.tindie.com/products/10182/](https://www.tindie.com/products/10182)
- 
-   [![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/products/10182/)
+[![](http://images.closedcube.uk/logo/github/amazon.png)](https://www.tindie.com/stores/closedcube/)
+
+| Region  | Link for 1 pcs (0x77) | Link for 2 pcs (0x76 and 0x77)|
+| ------------- | ------------- | ------------- |
+| UK | https://www.amazon.co.uk/dp/B077MSD174 | https://www.amazon.co.uk/dp/B077MG2S3T |
+| Germany (DE) | TBD | TBD |
+| France (FR) | TBD | TBD |
+| Italy (IT) | TBD | TBD |
+| Spain (ES) | TBD | TBD |
+| USA | TBD | TBD |
+| Canada | TBD | TBD |
+| Mexico | TBD | TBD |
+
+
+[![](http://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/182877251201)
+
+| Region  | Link |
+| ------------- | ------------- |
+| Europe,Asia,Oceania | https://www.ebay.co.uk/itm/ClosedCube-TSYS01-0-1-C-24bit-ADC-Digital-I2C-Temperature-Sensor/182828596463  |
+| USA  | TBD |
+
+
+[![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/products/10182)
+
+https://www.tindie.com/products/10182
+
+
    
 
 
