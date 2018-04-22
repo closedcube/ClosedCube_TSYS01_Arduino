@@ -34,13 +34,13 @@ The basic working principle is:
 
 [![](http://images.closedcube.uk/logo/github/amazon.png)](https://www.tindie.com/stores/closedcube/)
 
-| Region  | Link for 1 pcs (0x77) | Link for 2 pcs (0x76 and 0x77)|
+| Region  | Link for 2 pcs | Link for 2 pcs (Right-Angle)|
 | ------------- | ------------- | ------------- |
-| UK | https://www.amazon.co.uk/dp/B077MSD174 | https://www.amazon.co.uk/dp/B077MG2S3T |
-| Germany (DE) | TBD | TBD |
-| France (FR) | TBD | TBD |
-| Italy (IT) | TBD | TBD |
-| Spain (ES) | TBD | TBD |
+| UK | https://www.amazon.co.uk/dp/B077MMHNPX | TBD|
+| Germany (DE) | https://www.amazon.de/dp/B077MMHNPX | TBD |
+| France (FR) | https://www.amazon.fr/dp/B077MMHNPX | TBD |
+| Italy (IT) | https://www.amazon.it/dp/B077MMHNPX | TBD |
+| Spain (ES) | https://www.amazon.es/dp/B077MMHNPX | TBD |
 | USA | TBD | TBD |
 | Canada | TBD | TBD |
 | Mexico | TBD | TBD |
