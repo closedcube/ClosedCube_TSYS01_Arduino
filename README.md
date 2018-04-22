@@ -50,13 +50,13 @@ The basic working principle is:
 
 | Region  | Link |
 | ------------- | ------------- |
-| Europe,Asia,Oceania | https://www.ebay.co.uk/itm/ClosedCube-TSYS01-0-1-C-24bit-ADC-Digital-I2C-Temperature-Sensor/182828596463  |
+| Europe,Asia,Oceania | https://www.ebay.co.uk/itm/ClosedCube-TSYS01-0-1-C-24bit-ADC-Digital-I2C-Temperature-Sensor/182828596463<br/>https://www.ebay.co.uk/itm/182828596463  |
 | USA  | TBD |
 
 
 [![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/products/10182)
 
-<br/>https://www.tindie.com/products/10182
+https://www.tindie.com/products/10182
 <br/>https://www.tindie.com/products/closedcube/tsys01-01c-24bit-adc-digital-temperature-sensor/
 
 
