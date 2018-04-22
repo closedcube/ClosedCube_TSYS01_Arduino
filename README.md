@@ -57,6 +57,7 @@ The basic working principle is:
 [![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/products/10182)
 
 https://www.tindie.com/products/10182
+https://www.tindie.com/products/closedcube/tsys01-01c-24bit-adc-digital-temperature-sensor/
 
 
    
