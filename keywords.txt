@@ -9,7 +9,7 @@
 # Datatypes (KEYWORD1)
 ##################################################################
 
-ClosedCube_TSYS01	KEYWORD1
+ClosedCube_TSYS01 KEYWORD1
 
 ##################################################################
 # Methods and Functions (KEYWORD2)
