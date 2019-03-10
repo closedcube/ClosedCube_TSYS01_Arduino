@@ -24,6 +24,11 @@ The basic working principle is:
  - I2C fixed address is 0x77
  - Operating temperature range: -40C/-40F .. +125C/257F
 
+**Requirements:**
+
+- ClosedCube I2C Driver (Wrapper) https://github.com/closedcube/ClosedCube_I2C_Arduino
+
+
 ---
 
 ![](http://images.closedcube.uk/B018_TSYS01/ClosedCube_B018_TSYS01_GitHub1.jpg)
@@ -66,4 +71,4 @@ https://www.tindie.com/products/10182
 
 
 
-Updated: Sunday, 10 March 2019 at 23:43:00 GMT-00:00
+Updated: Sunday, 10 March 2019 at 23:47:41 GMT-00:00
