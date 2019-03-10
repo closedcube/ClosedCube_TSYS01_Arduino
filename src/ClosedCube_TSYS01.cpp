@@ -1,43 +1,49 @@
 /*
 
-Arduino library for TE CONNECTIVITY TSYS01 +/-0.1C 24-bit Digital Temperature Sensor
-Written by AA for ClosedCube
+Arduino library for Arduino library for TE CONNECTIVITY +/-0.1C 24-bit Digital Temperature Sensor
+version 2019.3.10
+
 ---
 
-The MIT License (MIT)
+Copyright (c) 2018-2019, ClosedCube
+All rights reserved.
 
-Copyright (c) 2017 ClosedCube Limited
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are met:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Redistributions of source code must retain the above copyright notice, 
+   this list of conditions and the following disclaimer.
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+2. Redistributions in binary form must reproduce the above copyright notice, 
+   this list of conditions and the following disclaimer in the documentation and/or 
+   other materials provided with the distribution.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+3. Neither the name of the copyright holder nor the names of its contributors 
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 */
 
-#include <Wire.h>
 #include "ClosedCube_TSYS01.h"
 
-ClosedCube_TSYS01::ClosedCube_TSYS01()
-{
+ClosedCube::Sensor::TSYS01::TSYS01() {
+	_i2c.init();
 }
 
-void ClosedCube_TSYS01::begin(uint8_t address) {
-	_address = address;
-	Wire.begin();
+void ClosedCube::Sensor::TSYS01::begin(uint8_t address) {
+	_i2c.address(address);
 
 	_k4 = readPROM(0xA2);
 	_k3 = readPROM(0xA4);
@@ -46,16 +52,14 @@ void ClosedCube_TSYS01::begin(uint8_t address) {
 	_k0 = readPROM(0xAA);
 }
 
-float ClosedCube_TSYS01::readTemperature() {
+float ClosedCube::Sensor::TSYS01::readTemperature() {
 	float result = 0;
 
-	Wire.beginTransmission(_address);
-	Wire.write(0x48);
-	Wire.endTransmission(true);
+	_i2c.writeByte(0x48);
 
 	delay(15);
 
-	float adc16 = readADC24()/256.0;
+	uint16_t adc16 = readADC24()/256;
 
 	result = (-2.0)*_k4*pow(10, -21)*pow(adc16, 4) +
 		4.0 *_k3*pow(10, -16)*pow(adc16, 3) +
@@ -66,35 +70,22 @@ float ClosedCube_TSYS01::readTemperature() {
 	return result;
 }
 
-float ClosedCube_TSYS01::readT() {
+float ClosedCube::Sensor::TSYS01::readT() {
 	return readTemperature();
 }
 
-uint32_t ClosedCube_TSYS01::readADC24() {
-	Wire.beginTransmission(_address);
-	Wire.write(0x00);
-	Wire.endTransmission();
-
+uint32_t ClosedCube::Sensor::TSYS01::readADC24() {
+	_i2c.writeByte(0x00);
 	delay(5);
-	Wire.requestFrom(_address, (uint8_t)3);
 
-	byte buf[3];
-	Wire.readBytes(buf, 3);
+	char buf[3];
+	_i2c.readBytes(buf,3);
 
 	return buf[0]*pow(2,16) + buf[1]*pow(2,8) + buf[0];
 }
 
-uint16_t ClosedCube_TSYS01::readPROM(uint8_t calibration) {
-	Wire.beginTransmission(_address);
-	Wire.write(calibration);
-	Wire.endTransmission();
-
+uint16_t ClosedCube::Sensor::TSYS01::readPROM(uint8_t calibration) {
+	_i2c.writeByte(calibration);
 	delay(5);
-
-	Wire.requestFrom(_address, (uint8_t)2);
-
-	byte msb = Wire.read();
-	byte lsb = Wire.read();
-
-	return msb << 8 | lsb;
+	return _i2c.readWord();
 }

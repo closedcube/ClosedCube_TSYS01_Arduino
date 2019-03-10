@@ -1,21 +1,25 @@
-
 ##################################################################
-# Syntax Coloring Map For 
-# ClosedCube TSYS01 +/-0.1C 24-bit ADC Temperature Sensor 
-# breakout board
+# Syntax Coloring Map For
+# Arduino library for TE CONNECTIVITY +/-0.1C 24-bit Digital Temperature Sensor
 ##################################################################
 
 ##################################################################
 # Datatypes (KEYWORD1)
 ##################################################################
 
-ClosedCube_TSYS01 KEYWORD1
+ClosedCube	KEYWORD1
+Sensor	KEYWORD1
+TSYS01	KEYWORD1
+
 
 ##################################################################
 # Methods and Functions (KEYWORD2)
 ##################################################################
 
-begin KEYWORD2
+address	KEYWORD2
+readTemperature	KEYWORD2
+readT	KEYWORD2
 
-readTemperature KEYWORD2
-readT KEYWORD2
+
+
+### Updated: Sunday, 10 March 2019 at 23:43:00 GMT-00:00
