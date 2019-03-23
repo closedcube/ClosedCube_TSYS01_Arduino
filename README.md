@@ -31,13 +31,13 @@ The basic working principle is:
 
 ---
 
-![](http://images.closedcube.uk/B018_TSYS01/ClosedCube_B018_TSYS01_GitHub1.jpg)
-![](http://images.closedcube.uk/B018_TSYS01/ClosedCube_B018_TSYS01_GitHub2.jpg)
+![](https://images.closedcube.uk/B018_TSYS01/ClosedCube_B018_TSYS01_GitHub1.jpg)
+![](https://images.closedcube.uk/B018_TSYS01/ClosedCube_B018_TSYS01_GitHub2.jpg)
 
 
 ### Where to Buy?
 
-[![](http://images.closedcube.uk/logo/github/amazon.png)](https://www.tindie.com/stores/closedcube/)
+[![](https://images.closedcube.uk/logo/github/amazon.png)](https://www.tindie.com/stores/closedcube/)
 
 | Region  | Link for 2 pcs | Link for 2 pcs (Right-Angle)|
 | ------------- | ------------- | ------------- |
@@ -51,7 +51,7 @@ The basic working principle is:
 | Mexico | TBD | TBD |
 
 
-[![](http://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/182877251201)
+[![](https://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/182877251201)
 
 | Region  | Link |
 | ------------- | ------------- |
@@ -59,10 +59,10 @@ The basic working principle is:
 | USA  | TBD |
 
 
-[![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/products/10182)
+[![](https://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/products/10182/)
 
-https://www.tindie.com/products/10182
-<br/>https://www.tindie.com/products/closedcube/tsys01-01c-24bit-adc-digital-temperature-sensor/
+https://www.tindie.com/products/10182/
+
 
 
    
@@ -71,4 +71,4 @@ https://www.tindie.com/products/10182
 
 
 
-Updated: Sunday, 10 March 2019 at 23:47:41 GMT-00:00
+Updated: Saturday, 23 March 2019 at 11:56:19 GMT-00:00
