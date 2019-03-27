@@ -46,13 +46,16 @@ The basic working principle is:
 | France (FR) | https://www.amazon.fr/dp/B077MMHNPX | TBD |
 | Italy (IT) | https://www.amazon.it/dp/B077MMHNPX | TBD |
 | Spain (ES) | https://www.amazon.es/dp/B077MMHNPX | TBD |
+| USA | TBD | TBD |
+| Canada | TBD | TBD |
+| Mexico | TBD | TBD |
 
 
-[![](https://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/183747492548)
+[![](https://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/182877251201)
 
 | Region  | Link |
 | ------------- | ------------- |
-| Europe,Asia,Oceania | https://www.ebay.co.uk/itm/183747492548  |
+| Europe,Asia,Oceania | https://www.ebay.co.uk/itm/ClosedCube-TSYS01-0-1-C-24bit-ADC-Digital-I2C-Temperature-Sensor/182828596463<br/>https://www.ebay.co.uk/itm/182828596463  |
 | USA  | TBD |
 
 
@@ -68,4 +71,4 @@ https://www.tindie.com/products/10182/
 
 
 
-Updated: Monday, 25 March 2019 at 10:17:22 GMT-00:00
+Updated: Wednesday, 27 March 2019 at 13:04:38 GMT-00:00
