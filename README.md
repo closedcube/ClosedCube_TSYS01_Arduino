@@ -15,7 +15,6 @@ The basic working principle is:
  - providing calibration coefficients
  - providing ADC value and calibration coefficients by I2C interface
 
-
 **Features:**
 
  - High Accuracy +/- 0.1C (Temperature: -5C/23F .. +50C/122F)
@@ -28,7 +27,6 @@ The basic working principle is:
 
 - ClosedCube I2C Driver (Wrapper) https://github.com/closedcube/ClosedCube_I2C_Arduino
 
-
 ---
 
 ![](https://images.closedcube.uk/B018_TSYS01/ClosedCube_B018_TSYS01_GitHub1.jpg)
@@ -37,7 +35,7 @@ The basic working principle is:
 
 ### Where to Buy?
 
-[![](https://images.closedcube.uk/logo/github/amazon.png)](https://www.tindie.com/stores/closedcube/)
+![Amazon Logo](http://images.closedcube.uk/logo/github/amazon.png)
 
 | Region  | Link for 2 pcs | Link for 2 pcs (Right-Angle)|
 | ------------- | ------------- | ------------- |
@@ -46,12 +44,9 @@ The basic working principle is:
 | France (FR) | https://www.amazon.fr/dp/B077MMHNPX | TBD |
 | Italy (IT) | https://www.amazon.it/dp/B077MMHNPX | TBD |
 | Spain (ES) | https://www.amazon.es/dp/B077MMHNPX | TBD |
-| USA | TBD | TBD |
-| Canada | TBD | TBD |
-| Mexico | TBD | TBD |
 
 
-[![](https://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/182877251201)
+![eBay Logo](http://images.closedcube.uk/logo/github/ebay.gif)
 
 | Region  | Link |
 | ------------- | ------------- |
@@ -59,7 +54,7 @@ The basic working principle is:
 | USA  | TBD |
 
 
-[![](https://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/products/10182/)
+![Tindie Logo](http://images.closedcube.uk/logo/github/tindie.png)
 
 https://www.tindie.com/products/10182/
 
@@ -71,4 +66,4 @@ https://www.tindie.com/products/10182/
 
 
 
-Updated: Sunday, 28 April 2019 at 09:02:32 GMT-00:00
+Updated: Friday, 09 August 2019 at 21:23:35 GMT-00:00
