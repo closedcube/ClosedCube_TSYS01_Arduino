@@ -37,13 +37,13 @@ The basic working principle is:
 
 ![Amazon Logo](http://images.closedcube.uk/logo/github/amazon.png)
 
-| Region  | Link for 2 pcs | Link for 2 pcs (Right-Angle)|
-| ------------- | ------------- | ------------- |
-| UK | https://www.amazon.co.uk/dp/B077MMHNPX | TBD|
-| Germany (DE) | https://www.amazon.de/dp/B077MMHNPX | TBD |
-| France (FR) | https://www.amazon.fr/dp/B077MMHNPX | TBD |
-| Italy (IT) | https://www.amazon.it/dp/B077MMHNPX | TBD |
-| Spain (ES) | https://www.amazon.es/dp/B077MMHNPX | TBD |
+| Region  | Link for 2 pcs | 
+| ------------- | ------------- | 
+| UK | https://www.amazon.co.uk/dp/B077MMHNPX | 
+| Germany (DE) | https://www.amazon.de/dp/B077MMHNPX |
+| France (FR) | https://www.amazon.fr/dp/B077MMHNPX | 
+| Italy (IT) | https://www.amazon.it/dp/B077MMHNPX | 
+| Spain (ES) | https://www.amazon.es/dp/B077MMHNPX |
 
 
 ![Tindie Logo](http://images.closedcube.uk/logo/github/tindie.png)
@@ -58,4 +58,4 @@ https://www.tindie.com/products/10182/
 
 
 
-Updated: Sunday, 11 August 2019 at 21:04:40 GMT-00:00
+Updated: Sunday, 11 August 2019 at 21:05:53 GMT-00:00
