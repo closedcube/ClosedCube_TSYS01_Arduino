@@ -46,14 +46,6 @@ The basic working principle is:
 | Spain (ES) | https://www.amazon.es/dp/B077MMHNPX | TBD |
 
 
-![eBay Logo](http://images.closedcube.uk/logo/github/ebay.gif)
-
-| Region  | Link |
-| ------------- | ------------- |
-| Europe,Asia,Oceania | https://www.ebay.co.uk/itm/ClosedCube-TSYS01-0-1-C-24bit-ADC-Digital-I2C-Temperature-Sensor/182828596463<br/>https://www.ebay.co.uk/itm/182828596463  |
-| USA  | TBD |
-
-
 ![Tindie Logo](http://images.closedcube.uk/logo/github/tindie.png)
 
 https://www.tindie.com/products/10182/
@@ -66,4 +58,4 @@ https://www.tindie.com/products/10182/
 
 
 
-Updated: Sunday, 11 August 2019 at 21:03:00 GMT-00:00
+Updated: Sunday, 11 August 2019 at 21:04:40 GMT-00:00
