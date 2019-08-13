@@ -1,7 +1,7 @@
 /*
 
 Arduino library for Arduino library for TE CONNECTIVITY +/-0.1C 24-bit Digital Temperature Sensor
-version 2019.8.11
+version 2019.8.13
 
 ---
 
@@ -76,9 +76,10 @@ float ClosedCube::Sensor::TSYS01::readT() {
 
 uint32_t ClosedCube::Sensor::TSYS01::readADC24() {
 	_i2c.writeByte(0x00);
+
 	delay(5);
 
-	char buf[3];
+	byte buf[3];
 	_i2c.readBytes(buf,3);
 
 	return buf[0]*pow(2,16) + buf[1]*pow(2,8) + buf[0];
