@@ -35,7 +35,7 @@ The basic working principle is:
 
 ### Where to Buy?
 
-![Amazon Logo](http://images.closedcube.uk/logo/github/amazon.png)
+![Amazon Logo](https://images.closedcube.uk/logo/github/amazon.png)
 
 | Region  | Link for 2 pcs | 
 | ------------- | ------------- | 
@@ -46,7 +46,7 @@ The basic working principle is:
 | Spain (ES) | https://www.amazon.es/dp/B077MMHNPX |
 
 
-![Tindie Logo](http://images.closedcube.uk/logo/github/tindie.png)
+![Tindie Logo](https://images.closedcube.uk/logo/github/tindie.png)
 
 https://www.tindie.com/products/10182/
 
@@ -58,4 +58,4 @@ https://www.tindie.com/products/10182/
 
 
 
-Updated: Tuesday, 13 August 2019 at 22:46:41 GMT-00:00
+Updated: Thursday, 03 October 2019 at 22:09:14 GMT-00:00
