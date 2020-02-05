@@ -3,7 +3,7 @@
 Example: tsys01demo
 
 Arduino library for Arduino library for TE CONNECTIVITY +/-0.1C 24-bit Digital Temperature Sensor
-version 2020.1.28
+version 2020.2.5
 
 ---
 
